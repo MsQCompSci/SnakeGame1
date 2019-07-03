@@ -1,0 +1,28 @@
+<!--DOCTYPE html-->
+<html>
+  <head>
+    <title>Ms. Q's Snake Game!</title>
+    <link href="style.css" rel="stylesheet" type= "text/css"> <!---- link to css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <!---- link to Materialize css library -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class = "container">
+       <h1 id = "title"> Snake Game</h1>
+      <div class = "row">
+        <canvas id = "canvas" width = "400" height = "400"></canvas> <!-- This is our canvas with width and height-->
+      </div>
+      <div id = "rules" class = "row">
+        <p>Rules</p>
+        <ol>
+          <li>Use the up, down, left and right arrow keys to control the red snake</li>
+          <li>The goal of the game is to eat the green apple and gain as many points as possible</li>
+          <li>If the snake collides with the border or itself the GAME IS OVER</li>
+          <li>Refresh the page to start the game over</li>
+        </ol>
+      </div>
+    </div>
+    
+  </body>
+  <script type ="text/javascript" src ="script.js" defer></script><!-----Link to JS file-->
+</html>

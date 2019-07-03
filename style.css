@@ -1,0 +1,17 @@
+canvas {
+  /*Center canvas*/
+  position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px; /* This is half the width */
+	margin-top: -200px; /* This is half the height */
+  bottom-padding: 50%
+}
+
+#title{
+text-align: center;
+}
+
+#rules{
+  padding-top: 40%
+}
